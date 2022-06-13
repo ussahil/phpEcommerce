@@ -1,0 +1,15 @@
+{
+  "name": "ecomphpsql",
+  "version": "1.0.0",
+  "description": "an eccomerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "author": "sahil Bhandari",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

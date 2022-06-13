@@ -1,0 +1,22 @@
+/*   Special Price Section Template */
+
+.special-price {
+  .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+// cart
+@media screen and(min-width:500px) {
+  .flex-none {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media screen and(max-width: 500px) {
+  .flex-none {
+    display: inline;
+  }
+}
+// cart end
