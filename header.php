@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +34,8 @@
 
 <body>
   <!-- header -->
+  
+
   <header id="header">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark color-primary-bg">
@@ -45,17 +51,9 @@
             <a class="nav-link color-baby-white" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link color-baby-white" href="#">Bedsheets<i class="fas fa-chevron"></i></a>
+            <a class="nav-link color-baby-white" href="logout.php">Logout<i class="fas fa-chevron"></i></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link color-baby-white" href="#">Jewellery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-baby-white" href="#">NightSuits</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-baby-white" href="#">Bedsheets</a>
-          </li>
+         
         </ul>
         <!-- form -->
         <form action="#" class="font-size-14 font-rubic my-3">

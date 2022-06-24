@@ -109,16 +109,16 @@ if($_SERVER['REQUEST_METHOD'] ==='POST'){
           <table class="table">
   <thead>
     <tr>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
+      <th scope="col">User Name</th>
+      <th scope="col">Password</th>
     </tr>
   </thead>
   <tbody>
     <?php foreach($product_shuffle as $item): ?>   
   <tr>
       <!-- <th scope="row">1</th> -->
-      <td><?php echo $item['first_name'] ?></td>
-      <td><?php echo $item['last_name'] ?></td>
+      <td><?php echo $item['username'] ?></td>
+      <td><?php echo $item['password'] ?></td>
       
       <td>
          <form method='POST'>
